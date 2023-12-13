@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body{
+            background-color: #c5c2c2;
+        }
+        nav{
+            background-color: rgba(0, 0, 0, 0.767);
+            overflow: hidden;
+        }
+        nav a {
+            float: right;
+            color: whitesmoke;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: grey;
+            color: black;
+            
+        }
+        .logo{
+            float:left;
+            text-align: center;
+            color: white;
+            padding: 14px 16 px 10px 10px;
+            font-size:xx-large;
+        }
+        .logo::first-letter{
+            color:rgba(145, 10, 10, 0.848);
+            font-size: 140%;
+        }
+        .contact{
+            font-size: xx-large;
+            font-weight: 550;
+            text-align: center;
+            color: #734739e8;
+        }
+        input[type="text"],
+        input[type="email"] {
+            width: 97%;
+            padding: 10px;
+            border-radius: 3px;
+            border: 1px;
+        }
+        form{
+            padding: 10px;
+            border: 1px solid grey;
+        }
+        .d{
+            padding: 5px;
+        }
+        textarea{
+            padding:10px;
+            margin: 5px;;
+            width:95%;
+            border-radius: 3px;
+            border: 1px;
+        }
+        .submit{
+            margin:5px;
+            border-radius: 3px;
+            padding: 5px;
+            background-color: rgb(98, 96, 96);
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+            color: white;
+        }
+        .submit:hover{
+            background-color: rgb(37, 33, 33);
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">&emsp;Aditya</div>
+        <a style="background-color: grey; color: black" href="#contact">Contact</a>&emsp;
+        <a href="/Resume/My_Work.html">My Work</a>&emsp;
+        <a href="/Resume/About_Me.html">About Me</a>&emsp;
+        <a href="/Resume/Home.html">Home</a>&emsp;
+    </nav>
+    <br>
+    <div class="contact">CONTACT ME</div>
+    
+    <br>
+    <form action="">
+        <div class="d">Name: <input type="text" placeholder="Your Name" required></div>
+        <div class="d">E-mail: <input type="email" placeholder="Your E-Mail" required></div>
+        <div class="d">Subject: <input type="text" placeholder="Enter Subject" required></div>
+        <br>
+        <div><textarea rows="10" placeholder="Enter your message here" required></textarea></div>
+        <a class="submit" href="/Resume/submission.html">Submit</a>  
+    </form>
+
+</body>
+</html>

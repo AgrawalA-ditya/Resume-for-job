@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        nav{
+            background-color: rgba(0, 0, 0, 0.767);
+            overflow: hidden;
+        }
+        nav a {
+            float: right;
+            color: whitesmoke;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: grey;
+            color: black;
+            
+        }
+        .logo{
+            float:left;
+            text-align: center;
+            color: white;
+            padding: 14px 16 px 10px 10px;
+            font-size:xx-large;
+        }
+        .logo::first-letter{
+            color:rgba(145, 10, 10, 0.848);
+            font-size: 140%;
+        }
+        .flex-container {
+            display: flex;
+            padding: 20px;
+            background-color: #c5c2c2;
+            height:700px;
+        }
+
+        .photo {
+            flex: 1;
+            text-align: center;
+        }
+
+        .photo img {
+            max-width: 100%;
+            border-radius: 300%;
+            height: 500px;
+        }
+
+        .same-property {
+            flex: 2;
+            padding: 150px 20px;
+        }
+
+        .same-property h1 {
+            color: #333;
+        }
+
+        .same-property h2 {
+            color: #555;
+        }
+
+        .same-property p {
+            color: #777;
+            font-size: larger;
+        }
+        div p{
+            line-height: 3px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <div class="logo">&emsp;Aditya</div>
+        <a href="/Resume/Contact.html">Contact</a>&emsp;
+        <a href="/Resume/My_Work.html">My Work</a>&emsp;
+        <a href="/Resume/About_Me.html">About Me</a>&emsp;
+        <a style="background-color: grey; color: black" href="#home">Home</a>&emsp;
+    </nav>
+    <section class="flex-container">
+        <div class="photo">
+            <img src="self.jpeg" alt="Your Photo">
+        </div>
+        <div class="same-property">
+            <h1>Aditya Agrawal</h1>
+            <h2>Web Developer</h2>
+            <p>As well as a being a good person I have a perfection in all.</p>
+            <p>I know very well how to tackle complex problems in life.</p>
+        </div>
+    </section>
+    <!-- <section style="background-color: #c5c2c2; height: 300px;"></section> -->
+</body>
+</html>

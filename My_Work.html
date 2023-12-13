@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Work</title>
+    <style>
+    body{
+        background-color: #c5c2c2;
+    }
+    nav{
+        background-color: rgba(0, 0, 0, 0.767);
+        overflow: hidden;
+    }
+    nav a {
+        float: right;
+        color: whitesmoke;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    nav a:hover {
+        background-color: grey;
+        color: black;
+    }
+    .logo{
+        float:left;
+        text-align: center;
+        color: white;
+        padding: 14px 16 px 10px 10px;
+        font-size:xx-large;
+    }
+    .logo::first-letter{
+        color:rgba(145, 10, 10, 0.848);
+        font-size: 140%;
+    }
+    #work{
+        font-size: xx-large;
+        margin-left: 45px;
+        font-weight: bolder;
+        color: #381f1fd6;
+    }
+    .container img{
+        width: 80%;
+        height: 90%;
+        border-radius: 5px;
+        box-shadow: 5px 5px 20px black;
+        text-align: center;
+    }
+    .container{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        margin: 10px;
+        height:470px;
+    }
+
+    p{
+        padding: 33px;
+        text-align: justify;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">&emsp;Aditya</div>
+        <a href="/Resume/Contact.html">Contact</a>&emsp;
+        <a style="background-color: grey; color: black;"href="#work">My Work</a>&emsp;
+        <a href="/Resume/About_Me.html">About Me</a>&emsp;
+        <a href="/Resume/Home.html">Home</a>&emsp;
+    </nav>   
+    <p id="work">My Work</p>
+    <div class="container">
+        <div class="div-1">
+            <img src="web.png" alt="web-development">
+            <h2>Web Development</h2>
+            <p>As a seasoned web developer with over 10 years of experience, I am dedicated to creating innovative and user-centric web solutions. My expertise spans the entire web development stack, including proficiency in HTML, CSS, and JavaScript, complemented by hands-on experience in backend.</p>
+        </div>
+        <div class="div-2">
+            <img src="machine.jpeg" alt="machine learning">
+            <h2>Machine Learning</h2>
+            <p>With a strong foundation in machine learning, I bring a results-oriented approach to developing and implementing cutting-edge algorithms and models. Proficient in programming languages, particularly Python, I possess a deep understanding of machine learning libraries such as TensorFlow and PyTorch.</p>
+        </div>        
+        <div class="div-3">
+            <img src="dsa.jpeg" alt="dsa">
+            <h2>DSA</h2>
+            <p>As a dedicated professional in the field of Data Structures and Algorithms (DSA), I bring a robust skill set and a proven track record in solving complex computational problems. My expertise lies in designing and implementing efficient algorithms, optimizing data structures, and ensuring scalable solutions for a wide range of applications.</p>
+        </div>       
+    </div>
+</body>
+</html>

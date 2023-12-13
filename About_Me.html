@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+    body{
+        background-color: #c5c2c2;
+    }
+    nav{
+        background-color: rgba(0, 0, 0, 0.767);
+        overflow: hidden;
+    }
+    nav a {
+        float: right;
+        color: whitesmoke;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    nav a:hover {
+        background-color: grey;
+        color: black;
+    }
+    .logo{
+        float:left;
+        text-align: center;
+        color: white;
+        padding: 14px 16 px 10px 10px;
+        font-size:xx-large;
+    }
+    .logo::first-letter{
+        color:rgba(145, 10, 10, 0.848);
+        font-size: 140%;
+    }
+    .all{
+        display:flex;
+    }
+    .photo img {
+        padding: 10px 20px;
+        flex: 1;
+        border-radius: 20%;
+        height: 60%;
+        width: 80%
+    }
+    .same{
+        padding: 10% 2%;
+        flex: 2;
+    }
+    .same p{
+        font-style: oblique;
+        font-size: larger;
+    }
+    .same h3{
+        color:brown;
+    }
+    .same span{
+        font-weight: bolder;
+        font-size:xx-large;
+    }
+    #education{
+        font-style: normal;
+        font-size: 16px;
+    }
+    #experience{
+        font-style: normal;
+        font-size: 16px;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">&emsp;Aditya</div>
+        <a href="/Resume/Contact.html">Contact</a>&emsp;
+        <a href="/Resume/My_Work.html">My Work</a>&emsp;
+        <a style="background-color: grey; color: black;" href="#About">About Me</a>&emsp;
+        <a href="/Resume/Home.html">Home</a>&emsp;
+    </nav>
+<section class="all">
+    <div class="photo">
+        <img src="self.jpeg" alt="Your Photo">
+    </div>
+    <div class="same">
+        <span>About Me</span>
+        <p>As a passionate and results-driven professional in the field of Web Development, I bring a wealth of experience and expertise in your office. Throughout my career, I have demonstrated a commitment to excellence, consistently achieving key milestones and contributing to the success of diverse projects. I specialize in html,css and react.js, leveraging a strong analytical mindset to solve complex problems. Known for my collaborative approach, I thrive in team environments, building positive relationships and fostering effective communication. My dedication to continuous learning allows me to adapt quickly to evolving industry trends and technologies. I am excited about the prospect of contributing to the advancements. With a keen eye for detail and a proactive approach to challenges, I am confident in my ability to make meaningful contributions to any professional setting.
+        </p>
+        <h3>skills</h3>
+        <ul>
+            <li>Web App Development</li>
+            <li>Designing web</li>
+            <li>Building Android/ios Apps</li>
+        </ul>
+        <h3>Education</h3>
+        <p id="education">&emsp;&ensp;B-Tech from the well renowned Indian Institute of Technology Roorkee, India.</p>
+        <h3>Experience</h3>
+        <p id="experience">&emsp;&ensp;I have worked 5 years in the company named TECHNO as a Web Developer.</p>
+    </div>
+</section>
+</body>
+</html>
